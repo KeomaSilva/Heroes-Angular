@@ -1,0 +1,7 @@
+<h2>DashBoard</h2>
+
+<div fxLayout fxLayout.xs="collumn" fxLayoutGap="10px" fxLayoutAlign="space-between">
+  <mat-card *ngFor="let hero of heroes">
+    <mat-card-title>{{hero.name}}</mat-card-title>
+  </mat-card>
+</div>
