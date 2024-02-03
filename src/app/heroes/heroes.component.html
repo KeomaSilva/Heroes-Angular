@@ -1,15 +1,15 @@
 
 <mat-card>
   <mat-card-header>
-    <h2> My list of Heroes</h2>
+    <h1> My list of Heroes</h1>
   </mat-card-header>
   <mat-card-content>
     <ul>
-      <li *ngFor="let hero of heroes" [class.selected]="hero===selectHero" (click)="onSelect(hero)">
+      <li
+      *ngFor="let hero of heroes"
+      routerLink="/heroes/{{hero.id}}">
         <span>{{hero.id}}</span> {{hero.name}}
       </li>
     </ul>
   </mat-card-content>
 </mat-card>
-
-<app-hero-details [hero]="selectHero"></app-hero-details>

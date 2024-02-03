@@ -7,8 +7,3 @@ li{
   cursor: pointer;
   padding: 5px 5px;
 }
-li.selected{
-  background-color: brown;
-  border-radius: 5px;
-  color: beige;
-}
