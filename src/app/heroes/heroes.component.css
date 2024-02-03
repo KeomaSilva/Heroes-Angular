@@ -1,9 +1,4 @@
-ul{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-li{
+.mat-row{
   cursor: pointer;
-  padding: 5px 5px;
+  background-color: whitesmoke;
 }
