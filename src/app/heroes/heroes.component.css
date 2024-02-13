@@ -1,4 +1,4 @@
-.mat-row{
+.cdk-row:hover{
+  background-color: aliceblue;
   cursor: pointer;
-  background-color: whitesmoke;
 }
