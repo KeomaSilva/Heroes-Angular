@@ -5,9 +5,11 @@ import { MaterialModule } from '../material/material.module';
 import { MessagesComponent } from './components/messages/messages.component';
 import { RouterModule } from '@angular/router';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { PageNotFoundComponent } from './components/page-not-found.component';
 
 const COMPONENTS = [
   MessagesComponent,
+  PageNotFoundComponent,
   ToolbarComponent
 ]
 const MODULES = [
