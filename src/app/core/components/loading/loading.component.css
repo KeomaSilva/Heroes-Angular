@@ -1,0 +1,13 @@
+.spinner-container{
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(0, 0, 0 ,0.3);
+  z-index: 20;
+}
